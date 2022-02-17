@@ -1,0 +1,28 @@
+Laravel Topics:
+1.Request Life Cycle
+2.Routing
+3.MVC
+4.Mastering
+5.Data Share
+6.Crud
+7.Middleware
+8.Auth
+9.Packages
+
+MVC= Model view controller
+Controller class = logic
+Model class = data provider
+V for view
+
+
+M------C------V
+|      |
+Db     R
+       |
+     index
+
+
+
+
+@extend = directive
+similar like include

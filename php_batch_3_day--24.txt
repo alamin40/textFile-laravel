@@ -1,0 +1,24 @@
+Data share process in Laravel:
+
+Array 
+Compact
+With
+
+
+Laravel database work:
+1.Eloquent ORM
+2.Querybuilder
+
+Model name should be singular and Captilize
+
+
+
+step 01 - Route
+step 02 - Controller function
+step 03 - view return
+
+
+basic http request
+01-url
+02-menu/button
+03-form
