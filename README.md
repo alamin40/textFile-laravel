@@ -1,26 +1,30 @@
-composer install
-
-composer update
-
-copy .env.example .env
-
-
-php artisan key:generat
-
-
-
 composer create-project laravel/laravel first-project
 
 php artisan serve
 
 php artisan make:controller ViewController
 
+php artisan make:mail EnrollConfirmationMail
+
+php artisan make:model Product
+php artisan make:model Product -m
 php artisan migrate
 
+php artisan migrate:rollback
 
-php artisan make:migration create_students_table
+php artisan make:middleware AdminMiddleware
 
-php artisan make:model Blog -m
+php artisan migrate:fresh // remove cache file
+
+php artisan make:migration create_flights_table // add table
+php artisan make:migration add_password_column_to_teachers_table //add column
+
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+
+
+
+
 
 
 
